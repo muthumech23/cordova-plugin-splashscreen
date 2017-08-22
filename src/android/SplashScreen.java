@@ -370,7 +370,7 @@ public class SplashScreen extends CordovaPlugin {
                 //getActivity().getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
                 //int width = displayMetrics.widthPixels;
                 //int height = displayMetrics.heightPixels;
-                int height = java.awt.SplashScreen.this.getSize().getHeight();
+                int height = SplashScreen.this.getView().getHeight();
                 progressBar.setPadding(0, (height/4), 0, 0);
                 centeredLayout.addView(progressBar);
                 //centeredLayout.setPadding(75, 200, 0, 0);
