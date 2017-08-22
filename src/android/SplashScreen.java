@@ -375,7 +375,7 @@ public class SplashScreen extends CordovaPlugin {
                 final Display display = win.getDefaultDisplay();
                 final Point size = new Point();
                 display.getRealSize(size);
-                progressBar.setPadding(0, (size.y/4), 0, 0);
+                progressBar.setPadding(0, (size.y / 2), 0, 0);
                 centeredLayout.addView(progressBar);
                    
                 //DialogFragment dialog = new MyDialogFragment();
