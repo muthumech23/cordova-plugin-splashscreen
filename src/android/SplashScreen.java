@@ -373,7 +373,6 @@ public class SplashScreen extends CordovaPlugin {
                 int height = SplashScreen.this.getView().getHeight();
                 progressBar.setPadding(0, (250), 0, 0);
                 centeredLayout.addView(progressBar);
-                centeredLayout.setPadding(0, 0, 0, 0);
                    
                 //DialogFragment dialog = new MyDialogFragment();
                 //dialog.show(getSupportFragmentManager(), "height: " + height);
