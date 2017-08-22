@@ -367,7 +367,7 @@ public class SplashScreen extends CordovaPlugin {
                 progressBar.setLayoutParams(layoutParams);
                 
                 DisplayMetrics displayMetrics = new DisplayMetrics();
-                getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+                getActivity().getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
                 int width = displayMetrics.widthPixels;
                 int height = displayMetrics.heightPixels;
                 progressBar.setPadding(0, (height/4), 0, 0);
