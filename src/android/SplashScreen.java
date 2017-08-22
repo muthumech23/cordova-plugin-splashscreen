@@ -366,6 +366,7 @@ public class SplashScreen extends CordovaPlugin {
                 progressBar.setLayoutParams(layoutParams);
                 progressBar.setPadding(0, 75, 0, 0);
                 centeredLayout.addView(progressBar);
+                centeredLayout.setPadding(75, 200, 0, 0);
 
                 spinnerDialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
                 spinnerDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
