@@ -40,6 +40,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.util.DisplayMetrics;
+import android.graphics.Point;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
