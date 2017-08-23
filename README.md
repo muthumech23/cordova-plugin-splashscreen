@@ -35,8 +35,4 @@ Report issues with this plugin on the [Apache Cordova issue tracker][Apache Cord
 
 ## Installation
 
-    // npm hosted (new) id
-    cordova plugin add cordova-plugin-splashscreen
-
-    // you may also install directly from this repo
     cordova plugin add https://github.com/kaya18/cordova-plugin-splashscreen.git
