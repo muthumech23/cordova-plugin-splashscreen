@@ -27,6 +27,8 @@ description: Control the splash screen for your app.
 
 # cordova-plugin-splashscreen
 
+This fork of the Splashscreen just simply adjusts the height of the Spinner for iOS&Android devices dynamically to 75% from top.
+
 This plugin is required to work with splash screens. This plugin displays and hides a splash screen during application launch.
 
 Report issues with this plugin on the [Apache Cordova issue tracker][Apache Cordova issue tracker].
@@ -38,7 +40,3 @@ Report issues with this plugin on the [Apache Cordova issue tracker][Apache Cord
 
     // you may also install directly from this repo
     cordova plugin add https://github.com/kaya18/cordova-plugin-splashscreen.git
-
-## Functions
-
-This fork of the Splashscreen just simply adjusts the height of the Spinner for iOS&Android devices dynamically to 75% from top.
