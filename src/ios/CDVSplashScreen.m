@@ -99,6 +99,8 @@
     UIView* parentView = self.viewController.view;
     parentView.userInteractionEnabled = NO;  // disable user interaction while splashscreen is shown
     _activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:topActivityIndicatorStyle];
+ 
+    // add padding to (top) spinner (75% vertical height)
     _activityView.center = CGPointMake(parentView.bounds.size.width / 2, (parentView.bounds.size.height / 2) + (parentView.bounds.size.height / 4));
     _activityView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin
         | UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleRightMargin;
