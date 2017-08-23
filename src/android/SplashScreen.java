@@ -372,7 +372,7 @@ public class SplashScreen extends CordovaPlugin {
                 final Point size = new Point();
                 display.getRealSize(size);
                    
-                // add padding to (top) spinner
+                // add padding to (top) spinner (75% vertical height)
                 progressBar.setPadding(0, (size.y / 2), 0, 0);
                 centeredLayout.addView(progressBar);
 
